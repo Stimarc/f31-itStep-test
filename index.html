@@ -1,35 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-block">
+  <header class="header">
+    <div class="container">
+      <div class="header-block">
 
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">About</a></li>
+            <li class="menu-item"><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+<aside class="sidebar">
+    <nav class="sidebar-menu">
+        <ul>
+            <li class="sidebar-item">Home</li>
+            <li class="sidebar-item">About</li>
+            <li class="sidebar-item">Contacts</li>
+        </ul>
+    </nav>
+</aside>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="main-block">
+
+        <div class="posts">
+          <div class="post">
+            <h3 class="post__title">post1 title</h3>
+            <div class="post__content">
+              <div class="post__img">
+                <img src="" alt="">
+              </div>
+              <div class="post__info">
+                <h4 class="post__author">Author</h4>
+                <p class="post__text">Lorem ipsum dolor sit amet.</p>
+                <div class="post__meta">
+                  <div class="meta">
+                    <div class="meta__item">1</div>
+                    <div class="meta__item">2</div>
+                    <div class="meta__item">3</div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </header>
 
-    <main class="main">
-        <div class="container">
-            <div class="main-block">
+      </div>
+    </div>
+  </main>
 
-            </div>
-        </div>
-    </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-block">
+        <nav class="footer-menu">
+          <ul class="footer-menu-list">
+            <li class="footer-menu-item"><a href="#">Home</a></li>
+            <li class="footer-menu-item"><a href="#">About</a></li>
+            <li class="footer-menu-item"><a href="#">Blog</a></li>
+            <li class="footer-menu-item"><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-block">
-
-            </div>
-        </div>
-    </footer>
-
+  <script src="./js/script.js"></script>
 </body>
 </html>
