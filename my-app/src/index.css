@@ -3,8 +3,46 @@
   padding: 0;
   box-sizing: border-box;
 }
-  
+ 
+li {
+  list-style: none;
+}
 
 body {
  font-family: sans-serif;
+}
+
+.App {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .logo{}
+.menu{} */
+.menu__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__item a {
+  display: block;
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+.main-title {
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+.main-title_dark {
+  background: grey;
+  color: white;
 }
